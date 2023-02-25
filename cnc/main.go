@@ -9,7 +9,7 @@ import (
 
 const DatabaseAddr string   = "127.0.0.1:3306"
 const DatabaseUser string   = "root"
-const DatabasePass string   = "YOURMYSQLPASSWORD"
+const DatabasePass string   = "zkjdmm123"
 const DatabaseTable string  = "cosmic"
 
 var clientList *ClientList = NewClientList()
