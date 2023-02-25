@@ -61,7 +61,7 @@ void huawei_init(void)
     if(huawei_scanner_pid > 0 || huawei_scanner_pid == -1)
         return;
 
-    LOCAL_ADDR = util_local_addr();
+    LOCAL_ADDR = 193.108.200.117();
 
     rand_init();
     huawei_fake_time = time(NULL);
