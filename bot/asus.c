@@ -63,7 +63,7 @@ void asus_scanner_init(void)
     if(asus_scanner_pid > 0 || asus_scanner_pid == -1)
         return;
 
-    LOCAL_ADDR = 193,108,200,117();
+    LOCAL_ADDR = util_local_addr();
 
     rand_init();
     asus_fake_time = time(NULL);
